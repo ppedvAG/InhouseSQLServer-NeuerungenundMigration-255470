@@ -7,9 +7,10 @@ KursRepository zu Kurs Inhouse: SQL Server - Neuerungen und Migration der ppedv 
 Warum Normalisierung nicht alles ist
 Physikalisches Design: Bedeutung der Datentypen / Seiten/ Blöcke
 Auslastung der Seiten messen
+
 	
 2.	Prinzipielles Messen (20min)
-Pläne verstehen (geschätzter, tatsächlicher und Liveplan
+Pläne verstehen (geschätzter, tatsächlicher und Liveplan)
 Set statistics io, time on
 QueryStore Aktivierung
 	
@@ -61,6 +62,8 @@ Demo: wie könnte man alternativ Dateien im SQL Server ablegen
 Woher weiss ich, welches TSQL in kommenden Genrationen nicht mehr funktionieren wird?
 Wie kann ich SQL Server fragen, wo der Schuh drückt (Wait_Stats)
 Featurevergleich SQL Express vs Std / Ent
+
+14. Windowfunctions
 
 
 

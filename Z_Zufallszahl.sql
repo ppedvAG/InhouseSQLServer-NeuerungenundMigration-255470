@@ -1,0 +1,1 @@
+select FLOOR(RAND(CHECKSUM(NEWID())) * 200) + 1
