@@ -51,7 +51,7 @@ INSERT INTO Distance
          , ((SELECT $node_id FROM Maedels WHERE ID = 9), (SELECT $node_id FROM Maedels WHERE ID = 15), 1)
 
 
-create table 
+
 
 
 
