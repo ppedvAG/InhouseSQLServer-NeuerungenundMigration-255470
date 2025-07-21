@@ -1,7 +1,7 @@
 use northwind;
 GO
 
-create view KundeUmsatz 
+create view vKundeUmsatz 
 as
 SELECT 
 	Customers.CustomerID, Customers.CompanyName 

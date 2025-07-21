@@ -130,6 +130,44 @@ alter table ku2 add id int identity
 
 dbcc showcontig('ku2') -- 41092
 
+
+
+
+
+
+set statistics io , time on
+
+select * from ku where id < 2
+
+select * from ku where id < 900000
+
+
+create proc gpdemo1 @zahl int
+as
+select * from ku where id < @zahl
+
+
+exec gpdemo1 900000
+
+
+dbcc freeproccache
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 set statistics io, time on
 select * from ku2 where id =  100 --  57210,  vs  41092
 
